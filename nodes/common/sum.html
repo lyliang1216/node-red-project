@@ -1,0 +1,29 @@
+<script type="text/javascript">
+  RED.nodes.registerType("sum", {
+    category: "通用",
+    color: "#a6bbcf",
+    defaults: {
+      name: { value: "" },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "file.svg",
+    label: function () {
+      return this.name || "sum";
+    },
+    paletteLabel: "计算",
+  });
+</script>
+
+<script type="text/html" data-template-name="sum">
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+    <input type="text" id="node-input-name" placeholder="Name" />
+  </div>
+</script>
+
+<script type="text/html" data-help-name="sum">
+  <p>
+    A simple node that converts the message payloads into all sum characters
+  </p>
+</script>

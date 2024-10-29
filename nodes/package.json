@@ -1,0 +1,12 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "A custom node set",
+  "dependencies": {},
+  "node-red": {
+    "nodes": {
+      "device": "common/device.js",
+      "sum": "common/sum.js"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+body {
+  background-color: #2e3b4e;
+  color: #ffffff;
+}
+.red-ui-editor-stack {
+  background-color: #1e2b3e;
+}
+.red-ui-palette-node {
+  background-color: #3e4b5e;
+}
+
+.red-ui-tabs-add {
+  display: none;
+}

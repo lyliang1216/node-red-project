@@ -1,0 +1,19 @@
+{
+  "name": "node-red-project",
+  "version": "1.0.0",
+  "description": "NodeRed项目,自定义节点",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "node-red": "^4.0.5"
+  }
+}
